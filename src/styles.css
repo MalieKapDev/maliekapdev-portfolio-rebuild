@@ -35,20 +35,16 @@ body {
 }
 /* Style for the hero section */
 .hero-container {
-  display: flex;
   width: 100%;
   height: 100%;
   margin: 0 auto;
   padding: 120px 20px 0 20px;
 }
 
-.hero-container-inner {
-  width: 80%;
-}
-
 /* Hero section headings */
-.hero-container-inner h1 {
+.hero-container h1 {
   font-size: 96px;
+  text-wrap: nowrap;
   font-family: var(--font-heading);
   font-weight: 700;
   line-height: 128px;
@@ -56,7 +52,7 @@ body {
   color: var(--dark-blue);
 }
 
-.hero-container-inner h2 {
+.hero-container h2 {
   font-size: 36px;
   font-family: var(--font-secondary);
   font-weight: 700;
@@ -65,16 +61,7 @@ body {
   color: var(--primary-blue);
 }
 
-.hero-container-inner h3 {
-  font-size: 30px;
-  font-family: var(--font-secondary);
-  font-weight: 400;
-  line-height: 50px;
-  margin-bottom: 30px;
-  color: var(--primary-blue);
-}
-
-.hero-container-inner p {
+.hero-container p {
   font-size: 24px;
   font-family: var(--font-primary);
   font-weight: 400;
@@ -120,6 +107,7 @@ body {
   border: 1px solid var(--primary-green);
   border-radius: 25px;
   transition: all 200ms ease-in-out;
+  margin-bottom: 15px;
 }
 
 .btn-second,
@@ -135,6 +123,7 @@ body {
   border: 1px solid var(--primary-green);
   border-radius: 25px;
   transition: all 200ms ease-in-out;
+  margin-bottom: 15px;
 }
 
 .btn-main:hover,
@@ -153,7 +142,85 @@ body {
   transform: scale(105%);
 }
 
-/* Hero section headshot */
 .headshot-box {
-  margin-top: 30px;
+  margin-top: 60px;
+}
+
+.headshot {
+  width: 500px;
+  padding-right: 60px;
+}
+
+.featured-container h2 {
+  font-size: 36px;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 20px;
+  color: var(--primary-blue);
+}
+
+@media (max-width: 900px) {
+  .hero-container {
+    padding: 60px 10px 0 10px;
+  }
+
+  .hero-container h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+    line-height: 64px;
+    margin-bottom: 16px;
+  }
+
+  .hero-container h2 {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+
+  .hero-container p {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .icon {
+    margin-bottom: 15px;
+  }
+
+  .sm-icon {
+    font-size: 20px;
+  }
+
+  .btn-main,
+  .btn-main a {
+    font-size: 15px;
+    text-wrap: nowrap;
+    line-height: 13.5px;
+    padding: 8px 14px;
+  }
+
+  .btn-second,
+  .btn-second a {
+    font-size: 15px;
+    line-height: 13.5px;
+    padding: 8px 18px;
+    margin-left: -10px;
+  }
+
+  .headshot-box {
+    margin-top: 90px;
+    margin-left: -50px;
+  }
+
+  .headshot {
+    width: 200px;
+    padding-right: 0;
+  }
+
+  .featured-container h2 {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
 }
