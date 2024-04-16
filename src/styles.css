@@ -182,6 +182,75 @@ body {
   border-radius: 15px;
 }
 
+.about-me-container h2 {
+  font-size: 64px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 86px;
+  margin-bottom: 32px;
+  color: var(--dark-blue);
+}
+
+.about-me-container h3 {
+  font-size: 18px;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 20px;
+  color: var(--primary-blue);
+}
+
+.about-me-container p {
+  font-size: 16px;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+  color: var(--light-blue);
+}
+
+.about-headshot {
+  border-radius: 25px;
+}
+
+.work-enquiry-container {
+  border: 1.5px solid var(--light-green);
+  background-color: var(--off-white-green);
+  border-radius: 15px;
+}
+
+.work-enquiry-container h2 {
+  font-size: 48px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 64px;
+  color: var(--dark-blue);
+}
+
+.work-enquiry-container p {
+  font-size: 18px;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--light-blue);
+}
+
+.lets-talk {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.about-me-email {
+  text-align: center;
+}
+
+.about-me-icons {
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 900px) {
   .hero-container {
     padding: 60px 10px 0 10px;
@@ -263,5 +332,45 @@ body {
     margin: 0 auto;
     text-align: center;
     margin-bottom: -10px;
+  }
+
+  .about-me-container h2 {
+    text-align: center;
+    text-wrap: nowrap;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+  }
+
+  .about-me-container h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+
+  .about-me-container p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .work-enquiry-container h2 {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .work-enquiry-container p {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .lets-talk {
+    padding-top: 18%;
   }
 }
