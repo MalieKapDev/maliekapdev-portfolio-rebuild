@@ -30,7 +30,7 @@ body {
       var(--off-white-green),
       var(--off-white-blue)
     );
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
@@ -425,7 +425,7 @@ body {
   }
 
   .skill-description {
-    text-align: center;
+    text-align: left;
     font-size: 10px;
     font-weight: 400;
     line-height: 5px;
