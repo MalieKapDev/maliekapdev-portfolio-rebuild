@@ -257,8 +257,8 @@ body {
 }
 
 .box {
-  width: 280px;
-  height: 250px;
+  width: 420px;
+  height: 200px;
   text-align: center;
   border: 1px solid var(--light-green);
   border-radius: 5px;
