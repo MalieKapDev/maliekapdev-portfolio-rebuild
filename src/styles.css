@@ -33,6 +33,11 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.border-main {
+  border: 6px solid var(--dark-green);
+}
+
 /* Style for the hero section */
 .hero-container {
   width: 100%;
@@ -249,6 +254,21 @@ body {
   margin: 0 auto;
   justify-content: center;
   margin-bottom: 20px;
+}
+
+.skill-image {
+  width: 40px;
+  height: 40px;
+}
+
+.skill-image-box {
+  margin: 20px auto;
+}
+
+h5 {
+  font-family: var(--font-secondary);
+  text-align: center;
+  color: var(--light-blue);
 }
 
 @media (max-width: 900px) {
