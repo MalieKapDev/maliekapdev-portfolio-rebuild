@@ -289,6 +289,24 @@ body {
   padding-right: 5px;
 }
 
+.work-title-container h2 {
+  font-size: 64px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 86px;
+  margin-bottom: 32px;
+  color: var(--dark-blue);
+}
+
+.work-title-container h3 {
+  font-size: 18px;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 20px;
+  color: var(--primary-blue);
+}
+
 @media (max-width: 900px) {
   .hero-container {
     padding: 60px 10px 0 10px;
@@ -429,5 +447,19 @@ body {
     font-size: 10px;
     font-weight: 400;
     line-height: 5px;
+  }
+
+  .work-title-container h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+  }
+
+  .work-title-container h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
   }
 }
