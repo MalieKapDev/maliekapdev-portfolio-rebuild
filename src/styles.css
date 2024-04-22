@@ -344,6 +344,15 @@ body {
   color: var(--light-blue);
 }
 
+.contact-me-container h2 {
+  font-size: 64px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 86px;
+  margin-bottom: 32px;
+  color: var(--dark-blue);
+}
+
 @media (max-width: 900px) {
   .hero-container {
     padding: 60px 10px 0 10px;
@@ -526,5 +535,13 @@ body {
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
+  }
+
+  .contact-me-container h2 {
+    text-align: center;
+    text-wrap: nowrap;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
   }
 }
